@@ -1,11 +1,9 @@
 head:
-  title: BetterDocs
+  title: रूबी मौलिक
   metatags:
-    description: माणिक उदाहरण और संदर्भ के साथ मौलिक प्रोग्रामिंग। इसमें थ्रेड, ठोस
-      सिद्धांत, डिजाइन पैटर्न, डेटा संरचनाएं तथा एल्गोरिदम शामिल हैं।
-    keywords: बेहतर डॉक्स, रूबी, फंडामेंटल, प्रोग्रामिंग फंडामेंटल्स। 
-      फंक्शनल प्रोग्रामिंग, मेटाप्रोग्रामिंग, थ्रेड्स, उदाहरणों के साथ रूबी के ठोस सिद्धांत,
-      डिजाइन पैटर्न, एल्गोरिदमडेटा संरचनाएं।
+    description: रूबी के उदाहरण और संदर्भ के साथ मौलिक प्रोग्रामिंग। इसमें थ्रेड, ठोस सिद्धांत, डिजाइन पैटर्न, डेटा संरचनाएं तथा एल्गोरिदम शामिल हैं।
+    keywords:रूबी, फंडामेंटल, प्रोग्रामिंग फंडामेंटल्स, फंक्शनल प्रोग्रामिंग, मेटाप्रोग्रामिंग, थ्रेड्स, उदाहरणों के साथ रूबी के ठोस सिद्धांत,
+      डिजाइन पैटर्न, एल्गोरिदम तथा डेटा संरचनाएं।
 content:
   menu:
     open: मेन्यू खोलें
@@ -15,43 +13,43 @@ sidebar:
   - title: एल्गोरिदम
     url: algorithms
     submenus:
-      - key: sorting
+      - key: छँटाई
         submenus:
-          - bubble_sort
-          - insertion_sort
-          - selection_sort
-          - shell_sort
-          - heap_sort
-          - merge_sort
-          - quick_sort
-      - key: searching
+          - बुलबुला छँटाई
+          - सम्मिलित छँटाई
+          - चयन छँटाई
+          - शैल छँटाई
+          - ढेर छँटाई
+          - मिलन छँटाई
+          - शीघ्र छँटाई
+      - key: खोज
         submenus:
-          - binary_search
-          - knuth_moriss_pratt_search
+          - बाइनरी खोज
+          - नथ मोरिस प्रैट खोज
   - title: डेटा संरचनाएं
     url: data_structures
     submenus:
-      - key: axioms
+      - key: सिद्धांत
         submenus:
-          - fetch_store
-          - elementary_operations
-          - call_method
-          - calculating
-          - object
-          - example
-      - key: implementations
+          - फैच सटोर
+          - मूल आपरेशन
+          - कॉल विधि
+          - कैल्कुलेशन
+          - ओब्जेट
+          - उदाहरण
+      - key: इम्पिमेनटेशन
         submenus:
-          - stack
-          - queue
-          - deque
-          - singly_linked_list
-          - doubly_linked_list
-          - ordered_list
-          - hash_table
-          - binary_tree
-          - binary_search_tree
+          - स्टाक
+          - क्यू
+          - ढीक्यू
+          - सिंगल लिंकढ लिस्ट
+          - डबल लिंकढ लिस्ट
+          - ओडरड लिस्ट
+          - हैश टेबल
+          - बाइनरी ट्री
+          - बाइनरी सर्च ट्री
           - b_tree
-          - binary_heap
+          - बाइनरी हीप
 
   - title: डिजाइन पैटर्न्स
     url: design_patterns
